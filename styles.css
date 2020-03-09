@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;
+    background-color: lightblue;
+}
+
+body form {
+    display: flex;
+    flex-direction: column;
+}
+
+body form input {
+    border-radius: 10px;
+    border-color: yellow;
+    margin-bottom: 20px;
+}
+
+.pokemon {
+    height: 400px;
+    width: 300px;
+    border: yellow solid 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;;
+
+}
+
+.pokeInputBtn {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Spartan', sans-serif;
+}
